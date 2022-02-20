@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Quiz</title>
+        <meta charset="Utf-8">
+        <link rel="stylesheet" href="q.css">
+        <link href="https://fonts.googleapis.com/css?family=Cairo&display=swap" rel="stylesheet">
+    </head>
+    <body>
+
+
+<div class="q">
+    <form class="f" name="f">
+        <label class="l">( هيا نبدأ الاختبار )</label>
+        <br>
+<label>ماهو اسم ام سيدنا محمد عليه الصلاة والسلام؟</label>
+<br>
+<input type="text" id="q1" autocomplete="off" >
+
+<br>
+<label>فى اى عام هجرى حدثت غزوة  بدر؟</label>
+<br>
+<label>2هجرى</label>
+<input type="radio" name="q2"  value="2هجرى">
+<br>
+<label>3هجرى</label>
+<input type="radio" name="q2"  value="3هجرى">
+<br>
+<label>كم مرة قام النبى صلى الله عليه وسلم بالحج؟</label>
+<br>
+<label>مرتين</label>
+<input type="radio" name="q3"  value="مرتين">
+<br>
+<label>مرة واحدة</label>
+<input type="radio" name="q3"  value="مرة">
+<br>
+<br>
+<input  onclick="s()"class="sub" type="button" id="sub" value="لقد انتهيت">
+</form>
+</div>
+
+<div class="re" id="re">
+        <label class="n">(النتيجة)</label>
+    <br>
+    <p class="resulr" id="result"></p>
+    <img class="im" id="im" src="">
+</div>
+
+
+
+
+
+
+
+
+        <script src="q.js"></script>
+    </body>
+</html>
